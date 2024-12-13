@@ -1,4 +1,4 @@
-package com.abhinath.dev.core.akasa.dtos.request.skaarl;
+package com.abhinath.dev.core.skaarl.dtos.request;
 
 import com.fasterxml.jackson.annotation.JsonSubTypes;
 import com.fasterxml.jackson.annotation.JsonTypeInfo;

@@ -1,6 +1,6 @@
 package com.abhinath.dev.core.akasa.dtos.request;
 
-import com.abhinath.dev.core.akasa.dtos.response.Response;
+import com.abhinath.dev.core.generic.dtos.Response;
 import lombok.experimental.SuperBuilder;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;

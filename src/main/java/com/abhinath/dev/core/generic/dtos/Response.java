@@ -1,4 +1,4 @@
-package com.abhinath.dev.core.akasa.dtos.response;
+package com.abhinath.dev.core.generic.dtos;
 
 import com.fasterxml.jackson.annotation.JsonSubTypes;
 import com.fasterxml.jackson.annotation.JsonTypeInfo;

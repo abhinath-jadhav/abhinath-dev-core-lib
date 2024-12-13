@@ -1,4 +1,4 @@
-package com.abhinath.dev.core.akasa.dtos.response;
+package com.abhinath.dev.core.generic.dtos;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
