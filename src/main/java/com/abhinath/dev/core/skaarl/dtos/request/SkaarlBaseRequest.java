@@ -14,7 +14,8 @@ import lombok.experimental.SuperBuilder;
 @AllArgsConstructor
 @JsonTypeInfo(use = JsonTypeInfo.Id.NAME, include = JsonTypeInfo.As.PROPERTY, property = "type")
 @JsonSubTypes({
-        @JsonSubTypes.Type(value = OtpRequest.class, name = "otp-request")
+        @JsonSubTypes.Type(value = OtpRequest.class, name = "otp-request"),
+        @JsonSubTypes.Type(value = OrderRequest.class, name = "order-request")
 })
 public class SkaarlBaseRequest {
     private String requestId;
