@@ -19,5 +19,5 @@ import lombok.NoArgsConstructor;
 @JsonTypeName("error")
 @EqualsAndHashCode(callSuper = true)
 public class ErrorResponse extends Response {
-    private String error;
+    private Object error;
 }
