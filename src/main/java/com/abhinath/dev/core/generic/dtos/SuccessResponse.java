@@ -16,7 +16,6 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(callSuper = true)
-@JsonTypeName("success")
 public class SuccessResponse extends Response {
     private Object data;
 }

@@ -16,7 +16,6 @@ import lombok.NoArgsConstructor;
 @SuperBuilder
 @AllArgsConstructor
 @NoArgsConstructor
-@JsonTypeName("error")
 @EqualsAndHashCode(callSuper = true)
 public class ErrorResponse extends Response {
     private Object error;

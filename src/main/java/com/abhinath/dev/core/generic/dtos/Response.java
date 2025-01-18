@@ -12,11 +12,6 @@ import lombok.experimental.SuperBuilder;
 @SuperBuilder  
 @NoArgsConstructor
 @AllArgsConstructor
-@JsonTypeInfo(use = JsonTypeInfo.Id.NAME, property = "type", visible = true)
-@JsonSubTypes({
-    @JsonSubTypes.Type(value = SuccessResponse.class, name = "success"),
-    @JsonSubTypes.Type(value = ErrorResponse.class, name = "error")
-})
 public class Response {
     private String message;
     private Integer status;

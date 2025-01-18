@@ -13,11 +13,8 @@ import lombok.experimental.SuperBuilder;
 @AllArgsConstructor
 public class OrderRequest{
 
-    @NotBlank(message = "Instrument key is required")
-    private String instrumentKey;
-
-    @NotBlank(message = "Instrument name is required")
-    private String instrumentName;
+    @NotBlank(message = "Instrument symbol is required")
+    private String symbol;
 
     @NotNull(message = "Quantity is required")
     @Min(value = 1, message = "Quantity must be greater than 0")
